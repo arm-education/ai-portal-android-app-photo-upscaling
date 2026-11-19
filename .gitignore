@@ -1,0 +1,9 @@
+.gradle/
+**/build/
+local.properties
+.hf-venv/
+models/
+*.pte
+__pycache__/
+app/src/androidTest/assets/*.pte
+artifacts/

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quicksr",
+    "name": "QuickSRNetSmall",
+    "repo": "Arm/qai-quicksrnetsmall-int8-xnnpack-executorch-vivo-x300",
+    "revision": "365c46d689ad2f098cf19a1805de8115e164a948",
+    "file": "model.pte",
+    "sha256": "6dac47949ee9cc513d9c577e55823cef4d2eaa8d69edbd8643aa92497f8c351f"
+  },
+  {
+    "id": "sesr",
+    "name": "SESR-M5",
+    "repo": "Arm/sesr-m5-int8-xnnpack-executorch-vivo-x300",
+    "revision": "575f360b9873c9bce6d7f099e5dac955f6bfbcf1",
+    "file": "model.pte",
+    "sha256": "b9e3f53508d77f3a187562b8e902cb4d84d12a53dcb8f0b166182baf403b18a6"
+  },
+  {
+    "id": "realesr",
+    "name": "RealESR-general-x4v3",
+    "repo": "Arm/realesr-general-x4v3-int8-xnnpack-executorch-vivo-x300",
+    "revision": "cca65752f945bf56f799b2b5b340bb0fc89624e8",
+    "file": "realesr-general-x4v3_executorch_optimized.pte",
+    "sha256": "9b8823cfbf5137283bee704d2d721e90502060f4d6ce41470ec9739fa0bd4304"
+  }
+]
