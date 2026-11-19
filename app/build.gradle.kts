@@ -8,7 +8,6 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-        testInstrumentationRunner = "org.arm.learningpath.upscaling.ContractInstrumentation"
         ndk { abiFilters += listOf("arm64-v8a") }
     }
     compileOptions {

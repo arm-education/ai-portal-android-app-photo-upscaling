@@ -121,8 +121,6 @@ The application stores each imported model in its private files directory. Clear
 
 Processing time includes RGB preparation, all tile inference, blending, and bitmap conversion. It excludes model import, loading and validation warm-up, photo decoding, rendering, and PNG saving. It is a full-image measurement rather than a per-tile Portal benchmark.
 
-For automated device and tile tests, see [tests/README.md](tests/README.md).
-
 ## Register another compatible model
 
 A model that matches the supplied adapter's task, RGB preprocessing, tensor shapes and types, scale factor, and CPU backend can use that adapter after you add a profile to `ModelProfile.java` and a pinned download entry to `models.json`.
